@@ -1,15 +1,11 @@
 
 <?php
-
-
 try{
-//require_once('./vendor/stripe/stripe-php/init.php');
     
 require_once('./stripe-php/init.php');
 
 	// This assumes that $customerId has been set appropriately from session data
-
-    $customerId = "cus_GCdbcSweeRCRUk";
+    $customerId = "cus_GPKnjNAGwlIR8b";
     // echo "hel";
     // echo $_POST['api_version'];
 if (!isset($_POST['api_version']))
